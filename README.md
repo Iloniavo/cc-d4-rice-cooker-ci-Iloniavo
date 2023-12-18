@@ -21,6 +21,11 @@ npm run build
 node index.js
 ```
 
+- Run the test : 
+```
+npx jest
+```
+
 ## Linter 
 
 Here we use Google Typescript Linter, [here](https://github.com/google/gts?fbclid=IwAR0o0gbV_gbbpv3rX8B2xFuhTkmr5Ee_qxV9Rpv7KI0egUVXBaUhskkvgps).

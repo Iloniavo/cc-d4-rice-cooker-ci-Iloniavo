@@ -29,6 +29,7 @@ export class RiceCooker {
   
     setQuantity(newQuantity: number): void {
       if (newQuantity > this.maxCapacity) {
+        this.quantity = 0
         console.log(`Error: quantity cannot exceed maximum capacity of ${this.maxCapacity}`);
       } else {
         this.quantity = newQuantity;
@@ -38,6 +39,7 @@ export class RiceCooker {
   
     setCookTime(newCookTime: number): void {
       if (newCookTime <= 0) {
+        this.cookTime = 0
         console.log('Error: cook time must be positive');
       } else {
         this.cookTime = newCookTime;
