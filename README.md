@@ -12,8 +12,14 @@ dart --version
 
 - Run the app : 
 ```
-dart Main.dart
+cd rice_cooker
+dart run
 ```
 
 - Dart Linter : [linter](https://github.com/dart-lang/linter), you can find there the official linter for Dart that checks Dart standard coding.
 
+- Run the test : 
+```
+dart test
+```
+test
