@@ -3,18 +3,14 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: google/dart:3.2.3
+      - image: google/dart:latest
 
     steps:
       - checkout
 
       - run:
-          name: Install dependencies
-          command: dart pub get
-
-      - run:
           name: Run tests
-          command: dart rice_cooker_test.dart
+          command: dart test
 
 workflows:
   version: 2
