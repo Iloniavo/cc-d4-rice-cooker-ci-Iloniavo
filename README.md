@@ -15,6 +15,11 @@ ruby --version
 ```
 ruby main.rb
 ```
+- Run the test :
+```
+ruby rice_cooker_test.rb
+```
+
 ### Linter : 
 
 Rubocop is the official linter of Ruby : [Rubocop](https://rubocop.org/).
